@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 날짜와 시간 가져오기
-current_time=$(TX=Asia/Seoul date "+%Y-%m-%d %H:%M:%S")
+current_time=$(TZ=Asia/Seoul date "+%Y-%m-%d %H:%M:%S")
 
 # 사용자에게 커밋 메시지 입력 받기
 read -p "커밋 메시지를 입력하세요: " commit_message
